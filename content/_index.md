@@ -1,8 +1,8 @@
 ---
 banner:
   title: Welcome **!**
-  title_small: "to John Bravo's Blog"
-  content: Are Developer and recently started your own business Already made website to ensure presence wants to develop.
+  title_small: "to Sparkler Blog"
+  content: Hi, I am Arslan a CyberSecurity Researcher interested in low level binary exploitation.
   image_enable: true
   image: /images/banner-author.png
   button:
@@ -23,5 +23,4 @@ promotion:
 recent_posts:
   title: Recent Posts
   enable: true
-
 ---
