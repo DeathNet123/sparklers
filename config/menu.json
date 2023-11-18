@@ -13,10 +13,6 @@
       "url": "/elements"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
       "name": "Pages",
       "url": "",
       "hasChildren": true,
@@ -40,10 +36,6 @@
     {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "#"
     }
   ]
 }

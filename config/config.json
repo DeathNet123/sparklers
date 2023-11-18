@@ -1,42 +1,42 @@
 {
   "site": {
-    "title": "Geeky Nextjs",
+    "title": "Sparklers",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_white": "/images/logo-light.png",
+    "logo_white": "/images/logo.png",
     "logo_width": "150",
     "logo_height": "39",
-    "logo_text": "Geeky"
+    "logo_text": "Sparklers"
   },
   "settings": {
     "theme_switcher": true,
     "default_theme": "system",
     "pagination": 6,
     "InnerPaginationOptions": {
-      "enableTop": false,
+      "enableTop": true,
       "enableBottom": true
     },
-    "summary_length": 200,
+    "summary_length": 100,
     "blog_folder": "posts"
   },
   "params": {
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amt, conse adip iscing. donec iaculis tempasus laoreet. Libero ullam rgscper.",
-    "copyright": "Designed and Developed By [Statichunt](https://statichunt.com/)"
+    "footer_content": "© 2023 Sparklers All Rights Reserved.",
+    "copyright": "Thanks to Statichunt for such beautiful Template - [Statichunt](https://statichunt.com/)"
   },
   "metadata": {
-    "meta_author": "Statichunt",
+    "meta_author": "Arslan Ahmed",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Geeky Nextjs Personal Blog Template"
+    "meta_description": "Sparklers Blog"
   },
   "widgets": {
     "about": {
-      "enable": true,
-      "content": "Lorem ipsum dolor sit amet, conse tfctetur adipiscing elit. Vel in in donec iaculis tempasus odio nunc laoreet . Libero ullam rgscorper."
+      "enable": false,
+      "content": "A blog containing stories about my journey of learning low level exploitation and other stuff..."
     },
     "featured_posts": {
-      "enable": true,
+      "enable": false,
       "title": "Blog Categories",
       "showPost": 3
     },
@@ -45,7 +45,7 @@
       "title": "Blog Categories"
     },
     "newsletter": {
-      "enable": true,
+      "enable": false,
       "title": "Newsletter",
       "content": "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!",
       "privacy_policy_page": "#",

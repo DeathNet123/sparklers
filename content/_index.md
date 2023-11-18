@@ -2,8 +2,8 @@
 banner:
   title: Welcome **!**
   title_small: "to Sparkler Blog"
-  content: Hi, I am Arslan a CyberSecurity Researcher interested in low level binary exploitation.
-  image_enable: true
+  content: Hi, I am Αρσλάν a CyberSecurity Researcher interested in low level binary exploitation.
+  image_enable: false
   image: /images/banner-author.png
   button:
     enable: true
@@ -16,7 +16,7 @@ featured_posts:
   title: Featured Posts
 
 promotion:
-  enable: true
+  enable: false
   image: /images/promotion.png
   link: "#"
 
