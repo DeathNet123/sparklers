@@ -4,6 +4,8 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+
+
 const Logo = ({ src }) => {
   // destructuring items from config object
   const { logo, logo_white, logo_width, logo_height, logo_text, title } =
@@ -28,6 +30,7 @@ const Logo = ({ src }) => {
           style={{
             height: logo_height.replace("px", "") + "px",
             width: logo_width.replace("px", "") + "px",
+            borderRadius: "50%"
           }}
           className={"m-auto"}
         />

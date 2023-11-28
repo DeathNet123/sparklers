@@ -2,6 +2,7 @@ import { markdownify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
+import styles from "./about.module.css"
 
 const About = ({ data }) => {
   const { frontmatter, mdxContent } = data;
@@ -11,18 +12,26 @@ const About = ({ data }) => {
     <section className="section mt-16">
       <div className="container text-center">
         {image && (
-          <div className="mb-8">
+          <div className={styles.photo}>
+            <h1 className={styles.cakeArslan}>Arslan Ahmed</h1>
             <Image
               src={image}
-              width={1298}
-              height={616}
+              width={200}
+              height={200}
               alt={title}
               className="rounded-lg"
               priority={true}
             />
+            <div className={styles.glowWrap}>
+              <i className={styles.grow}></i>
+            </div>
           </div>
         )}
+
+        <div className={styles.MainArslan}>
         {markdownify(title, "h1", "h1 text-left lg:text-[55px] mt-12")}
+        </div>
+        
 
         <div className="content text-left">
           <MDXRemote {...mdxContent} components={shortcodes} />

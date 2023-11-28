@@ -1,36 +1,32 @@
 ---
-title: About The Author
-image: /images/author.png
+title: whoami
+image: /images/Me.jpeg
 description: "meta description"
 layout: about
 education:
   title: Formal Education
   degrees:
-    - university: "Southeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Northeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Easteast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Southeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"  
+    - university: "Punjab University FCIT"
+      content: "2019 • 2023 • Bachelors in Computer Science"
+    - university: "PISJ"
+      content: "2017 • 2019 • Intermediate in Computer Science"  
 
 experience:
-  title: Work Experience
+  title: Interest
   list:
-    - Best Writer Award
-    - Best New Newel
-    - Best Book
-    - Best Article
-    - Best New Newel
-    - Best New Newel
-    - Best Book
-    - Best Article
-    - Best New Newel
-    - Best Book
+    - Security Researcher
+    - Low Level Vulnerability Research
+    - Low Level Binary Exploitation
+    - Quantum Computing
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi amet, ultrices scelerisue cras. Tincidunt hendrerit egestas venenatis risus sit nunc. Est esglit non in ipsum lect;aaus adipiscing et enim porttitor. Dui ultrices et volud eetpat nunc, turpis rutrum elit vestibululm ipsum. Arcu fringilla duis vitae mos dsdllis duicras interdum purus cursus massa metus. Acc umsan felaais, egsdvet nisi, viverra turpis fermentum sit suspf bafedfb ndisse fermentum consectetur. Facilisis feugiat trisique orci tempor sed masd fbsssa tristique ultrices sodales. Augue est sapien elementum facilisis. Enim tincidnt cras interdum purus ndisse. morbi quis nunc.
+I'm a passionate security researcher with a keen focus on the Linux kernel. I earned my BSCS from Punjab University FCIT, where I delved into the world of computing. My academic journey culminated in a fascinating Final Year Project, where I explored the intricacies of Vulnerability Research and Exploit Development on the Android Kernel.
 
-Et dolor placerat tempus risus nunc urna, nunc a. Mattis viverra ut sapidaaen enim sed tortor. Mattis gravida fusce cras interdum purus cursus massa metus. Acc umsan felaais, eget nisi, viverra turpis fermentum sit suspf bafedfb ndisse. morbi quis nunc, at arcu quam facilisi. In in lacus aliquam dictum sagittis morbi odio. Et magnis cursus sem sed condimentum. Nibh non potenti ac amsdfet Tincidunt hendrerit egestas venenatis risus sit nunc. Est esglit non in ipsuasdm lect;aaus adipiscing et enim porttitor. Dui ultrices et volud eetpat nunc, turpis ndisse. morbi quis nunc, at arcu quam facilisi ndisse. morbi quis nunc, at arcu quam facilisi
+Currently, I contribute my skills and knowledge as a dedicated Security Researcher at Ebryx, where I immerse myself in the dynamic realm of cybersecurity. My professional journey has led me to specialize in low-level binary exploitation, a field that constantly challenges and excites me.
+
+Beyond the realms of security, my interests extend to the very core of computing. I find joy in Operating System Development, where I get to witness the intricate dance of code and hardware. The ever-evolving landscape of Cyber Security continues to captivate my curiosity, pushing me to stay at the forefront of technological advancements.
+
+But my intrigue doesn't stop there. I'm also fascinated by Quantum Computers, exploring the potential they hold for reshaping the future of computing. On a cosmic scale, I find solace in the profound mysteries of Cosmology, marveling at the vastness and intricacies of the universe.
+
+In essence, I'm on a perpetual quest for knowledge and innovation, driven by a genuine passion for the intricacies of technology and the security challenges it present.

@@ -1,7 +1,7 @@
 ---
 banner:
   title: Welcome **!**
-  title_small: "to Sparkler Blog"
+  title_small: "to Sparklers Blog"
   content: Hi, I am Αρσλάν a CyberSecurity Researcher interested in low level binary exploitation.
   image_enable: false
   image: /images/banner-author.png
