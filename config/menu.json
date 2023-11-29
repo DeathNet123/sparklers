@@ -9,17 +9,17 @@
       "url": "/about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Pages",
+      "name": "Sections",
       "url": "",
       "hasChildren": true,
       "children": [
         {
           "name": "Categories",
           "url": "/categories"
+        },
+        {
+          "name": "Merch - Coming Soon!",
+          "url": "#"
         }
       ]
     }

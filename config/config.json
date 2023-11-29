@@ -32,11 +32,11 @@
   },
   "widgets": {
     "about": {
-      "enable": false,
+      "enable": true,
       "content": "A blog containing stories about my journey of learning low level exploitation and other stuff..."
     },
     "featured_posts": {
-      "enable": false,
+      "enable": true,
       "title": "Blog Categories",
       "showPost": 3
     },

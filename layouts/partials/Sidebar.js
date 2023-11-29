@@ -11,6 +11,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaRegCalendar } from "react-icons/fa";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
+
 const { blog_folder } = config.settings;
 const { about, featured_posts, newsletter } = config.widgets;
 
@@ -33,6 +34,7 @@ const Sidebar = ({ posts, categories, className }) => {
             alt="bg-map"
           />
           <Logo />
+          <h1 className="hover:skew-y-12 transition-all">Sparklers</h1>
           {markdownify(about.content, "p", "mt-8")}
           <Social
             className="socials sidebar-socials mt-6 justify-center"
