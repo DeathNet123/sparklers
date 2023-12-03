@@ -12,7 +12,7 @@ const About = ({ data }) => {
     <section className="section mt-16">
       <div className="container text-center">
         {image && (
-          <div className={styles.photo}>
+          <div className={styles.AbihaStyler}>
             <Image
               src={image}
               width={200}
