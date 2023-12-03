@@ -1,20 +1,20 @@
 ---
 title: "Let’s, Talk </br> About You"
-description: "meta description"
-phone: "+211234565523"
-mail: "info@email.com"
-location: "9567 Turner Trace Apt. BC C3G8A4"
+description: "World is Going to Fall because we aren't taking care of it anymore"
+phone: "0x0"
+mail: "0x0"
+location: "0x0"
 form_action: "#"
 layout: "contact"
 addresses:
   - icon: FaUserAlt
-    content: +211234565523
-    link: tel:+211234565523
+    content: 0x0
+    link: tel:0x0
   - icon: FaMapMarkerAlt
-    content: info@email.com
-    link: mailto:info@email.com
+    content: 0x0
+    link: mailto:0x
   - icon: FaLocation
-    content: 9567 Turner Trace Apt. BC C3G8A4
+    content: 0x0
 
 draft: false
 ---
