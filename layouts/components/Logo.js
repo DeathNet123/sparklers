@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 
 
-const Logo = ({ src }) => {
+const Logo = ({ src, onHover }) => {
   // destructuring items from config object
   const { logo, logo_white, logo_width, logo_height, logo_text, title } =
     config.site;
@@ -32,7 +32,7 @@ const Logo = ({ src }) => {
             width: logo_width.replace("px", "") + "px",
             borderRadius: "50%"
           }}
-          className={"m-auto"}
+          className={"m-auto " + onHover}
         />
       ) : logo_text ? (
         logo_text

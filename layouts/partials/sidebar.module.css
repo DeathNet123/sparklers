@@ -1,0 +1,14 @@
+.AbihaGlower
+{
+    color: inherit;
+    transition: inherit;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -ms-transition: inherit;
+    -o-transition: inherit;
+}
+
+.AbihaGlower:hover
+{
+    color: #0e0064;
+}
