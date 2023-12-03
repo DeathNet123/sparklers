@@ -13,7 +13,6 @@ const About = ({ data }) => {
       <div className="container text-center">
         {image && (
           <div className={styles.photo}>
-            <h1 className={styles.cakeArslan}>Arslan Ahmed</h1>
             <Image
               src={image}
               width={200}
@@ -28,7 +27,7 @@ const About = ({ data }) => {
           </div>
         )}
 
-        <div className={styles.MainArslan}>
+        <div className="">
         {markdownify(title, "h1", "h1 text-left lg:text-[55px] mt-12")}
         </div>
         

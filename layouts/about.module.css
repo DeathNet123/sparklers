@@ -1,14 +1,8 @@
 .photo{
-position: absolute;
-top: 60%;
-left: 50%;
-transform: translate(-50%, -50%);
-display: block;
+    color: inherit;
 }
 
 .photo img{
-width: 200px;
-height: 200px;
 object-fit: cover;
 filter: grayscale(100%) contrast(120%);
 box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
@@ -20,10 +14,6 @@ margin-top: -10px;
 .photo:hover img{ box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1); filter: grayscale(0%) contrast(120%); -webkit-filter: grayscale(0%) contrast(120%);
 }
 
-.photo:hover h1
-{
-    color: #0e0064;
-}
 
 .photo .glowWrap{
 overflow: hidden;
@@ -54,26 +44,5 @@ transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 .photo:hover img,
 .photo:hover .glowWrap{
     cursor: pointer;
-margin-top: 0;
+    margin-top: 0;
 }
-
-.cakeArslan{
-    position: absolute;
-    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
-    z-index: 1;
-    transform: translate(-25%, -65%);
-    -webkit-transform: translate(-25%, -65%);
-    -moz-transform: translate(-25%, -65%);
-    -ms-transform: translate(-25%, -65%);
-    -o-transform: translate(-25%, -65%);
-    font-family: 'Montserrat', sans-serif !important;
-    margin: 0;
-    line-height: 1.2;
-}
-
-
-.MainArslan
-{
-    margin-top: 20%;
-}
-
