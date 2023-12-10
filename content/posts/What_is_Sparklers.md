@@ -87,7 +87,7 @@ They say the new year brings joys and a sense of motivation, and oh boy, was I e
 
 As I was absolutely excelling in my exploration of the kernel security module at Pwn College, I saw an opening at Ebryx and decided to give it a shot. To my surprise, I was hired and on-boarded a week before the start of my eight semester.
 
-I completed most of FYP research during the probabtion period at Ebryx and by the end of August I graduated from the university.
+I completed most of FYP research during the probation period at Ebryx and by the end of August I graduated from the university.
 
 #### Getting Lost
 
