@@ -85,7 +85,7 @@ The thrill and excitement in what I was doing started to fade. I persevered beca
 
 They say the new year brings joys and a sense of motivation, and oh boy, was I ever in more need of motivation. I decided to move on and started to pick up the pace again. By this time, I managed to somewhat have enough overview of the userland and was ready to delve into kernel land exploitation.
 
-As I was absolutely excelling in my exploration of the kernel security module at Pwn College, I saw an opening at Ebryx and decided to give it a shot. To my surprise, I was hired and on-boarded a week before the start of my eighth semester.
+As I was absolutely excelling in my exploration of the kernel security module at Pwn College, I saw an opening at Ebryx and decided to give it a shot. To my surprise, I was hired and on-boarded a week before the start of my eight semester.
 
 I completed most of FYP research during the probabtion period at Ebryx and by the end of August I graduated from the university.
 
