@@ -41,6 +41,7 @@ const App = ({ Component, pageProps }) => {
     <JsonContext>
       <Head>
         {/* google font css */}
+        <SpeedInsights />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
