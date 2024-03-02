@@ -1,6 +1,6 @@
 ---
 title: "The Untold Tale Of Your Life"
-date: 2024-3-2T01:09:30Z
+date: 2024-03-02T15:00:00Z
 image: /images/post/untold_story.jpeg
 categories: ["Psychology", "Mystery", Excaliats]
 featured: true
@@ -11,6 +11,6 @@ Our society may seem scarce in this vast universe, yet it holds many untold stor
 
 Ironically, despite the underlying isolation, our society still finds ways to interconnect these isolated components. It seems like a paradox, doesn't it? Our desires have taught us to present lies in the form of truth. Some of us have found ways to connect with each other as followers of some religion or as citizens of a nation. Some have mastered the art of bringing these components together to form a powerful yet dull system to act as their weapon and shield. The wise have likened society to chess or checkers, but it's more complex than them, yet it can fall like dominoes if the cards are played correctly.
 
-Every single one of us has a story. Every action performed, every sentence, every word spoken is an opportunity to learn about their stories, to understand their desires, and to see through their foul play. While there might be satisfaction in exposing someone's blatant lies, some of us have the lens to see beyond that. Why don't I take you on an adventure where you will look at the world through a lens, the lens of Excaliats 
+Every single one of us has a story. Every action performed, every sentence, every word spoken is an opportunity to learn about their stories, to understand their desires, and to see through their foul play. While there might be satisfaction in exposing someone's blatant lies, some of us have the lens to see beyond that. Should I take you on an adventure where you will look at the world through a lens, the lens of Excaliats 
 
 ![image](/images/post/placeholder.jpeg)
