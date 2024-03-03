@@ -19,7 +19,7 @@ const Footer = () => {
       />
       <div className="container text-center">
         <div className="mb-6 inline-flex">
-          <Logo />
+          <Logo onHover="transition-all hover:animate-ping"/>
         </div>
         {markdownify(footer_content, "p", "max-w-[638px] mx-auto")}
 
