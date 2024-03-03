@@ -145,8 +145,98 @@ The installation process for the enhanced GEF is quite straightforward. You can 
 
 Qemu is open source emulator which will run over linux the best thing about the Qemu is that it provides you option to debug the kernel over the socket connection.
 
-### Clone the Qemu Environment Repository 
+### Setting up the Kernel
 
 1. The first step for the qemu environment setup is to clone the repository from [github](https://github.com/DeathNet123/Kernel_Debugging_Env/)
 
-Once you have the repository clone let's look at the 
+Let's look at the directory structure of the repository. We have two scripts and three directories.
+<Code language="sh">
+{`
+   $ tree -L 1
+   .
+   ├── copy2vm
+   ├── img
+   ├── kernel
+   ├── poc
+   ├── README.md
+   └── startvm
+
+`}
+</Code>
+
+The `startvm` script will run our QEMU machine and load the kernel present in the `kernel` directory. This is where you should place the `bzImage` file built by compiling the kernel.
+
+2. Place the `bzImage` into the kernel directory by using the following command
+
+<Code language="sh">
+{`
+   #Make sure to adjust your path accordingly because it depends where you compiled the kernel.
+   cp ../linux-$KERNEL_VERSION/arch/x86/boot/bzImage ./kernel/arch/x86/boot/
+
+`}
+</Code>
+
+
+<Notice type="info">
+  The `bzImage` is present in linux-$KERNEL_VERSION/arch/x86/boot/
+</Notice>
+
+### Setting up filesystem
+
+Now that we have the kernel set up, let's configure the filesystem! After all, we can't boot without it. Thankfully, a script provided in the Syzkaller Environment Setup makes building the filesystem a breeze. Shoutout to the anonymous hero who made this process easier!
+
+
+<Code language="sh">
+{`
+   ./img/create_image.sh -d bookworm -f full
+
+`}
+</Code>
+
+- `-d` flag is used to specify the distribution we want to use
+- `-f` flag here stands for feature i opted for the full
+
+### POC directory
+
+Inside the `poc` directory, you'll find `poc.c` and a `Makefile`. This is where you can place the code which will trigger the kernel APIs or system calls you're interested in examining. Compile your code using the `Makefile`. 
+
+When you run the `create_img.sh` script, it will automatically copy the compiled ELF binary into your filesystem. Alternatively, you can use the `copy2vm` script to copy the binary manually.
+
+### Installation of third party libraries
+
+Although, the -f flag we used will install pretty much everything but you might end up in situations where you have to install someother dependencies or other libraries you can do this by 
+mounting the filesystem img file and then chroot into it. 
+
+1. Mount the filesystem
+
+<Code language="sh">
+{`
+   cd img && mkdir filesys
+   sudo mount bookworm.img filesys/
+
+`}
+</Code>
+
+2. Chroot into the filesystem
+
+<Code language="sh">
+{`
+   cd filesys
+   sudo chroot .
+
+`}
+</Code>
+
+3. Install the dependencies, utilities or library
+
+<Code language="sh">
+{`
+   apt install libfuse3-dev
+
+`}
+</Code>
+
+4. Exit the terminal and you are done
+
+### Play Time
+
