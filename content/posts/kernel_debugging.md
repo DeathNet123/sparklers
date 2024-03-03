@@ -1,6 +1,6 @@
 ---
 title: "Kernel Debugging Setup"
-date: 2024-03-02T1:21:00Z
+date: 2024-03-03T1:21:00Z
 image: /images/post/kernel_debug_title.jpeg
 categories: ["Linux", "Kernel", Debugging]
 featured: true
