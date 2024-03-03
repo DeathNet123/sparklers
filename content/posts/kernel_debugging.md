@@ -1,6 +1,6 @@
 ---
 title: "Kernel Debugging Setup"
-date: 2024-03-02T15:00:00Z
+date: 2024-03-02T1:21:00Z
 image: /images/post/kernel_debug_title.jpeg
 categories: ["Linux", "Kernel", Debugging]
 featured: true
@@ -240,3 +240,29 @@ mounting the filesystem img file and then chroot into it.
 
 ### Play Time
 
+I know you are now impatient and perhaps tired because after all you have done a lot of hardwork since setting debugging environment for the kernel is not peice of cake.
+Without any further details, let's run the env and start debugging.
+
+1. run the startvm script
+2. load the `$KERNEL_VERSION/vmlinux` file in gdb
+3. log in to the your system
+   ![image](/images/post/kernel_debugging_startvm.png)
+ - if you want to log in as root just type the root as username
+ - for non privileged users type user as username and user as password
+4. set breakpoint for example `break pipe_write` => this will set break pipe_write function in the kernel which is called everytime we write to the pipe
+5. Attach the gdb to qemu using the following command `target remote :1234` once it will be attached it will hit breakpoint type `contine`
+   ![image](/images/post/kernel_debugging_continue.png)
+6. Run the example poc i provided which creates a pipe and writes to it inside the qemu machine 
+7. In gdb the breakpoint at pipe_write will be hit
+   ![image](/images/post/kernel_debugging_pipe_write.png)
+
+
+<Notice type="info">
+  The `vmlinux` is present in linux-$KERNEL_VERSION/ => it's present at root of the kernel source code once you have compiled it.
+</Notice>
+
+## End 
+
+I hope you enjoy this writeup it took me whole day to write this down i hope this helps you out. Happy Debugging...
+
+~Αρσλάν
