@@ -14,7 +14,7 @@ education:
 experience:
   title: Interest
   list:
-    - Security Researcher
+    - Security Research
     - Low Level Vulnerability Research
     - Low Level Binary Exploitation
     - Quantum Computing
