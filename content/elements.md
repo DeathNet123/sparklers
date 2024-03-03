@@ -147,8 +147,6 @@ Some text to show that the reference links can follow later.
   This is a simple note.
 </Notice>
 
-
-
 <Notice type="info">
   This is a simple note.
 </Notice>
