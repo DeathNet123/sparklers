@@ -26,8 +26,6 @@ First things first, in the old-fashioned Linux way, we need to update our system
 
 ## Downloading the Source
 
-Sure, here is the corrected grammar, spelling, and punctuation:
-
 Once you're done installing the dependencies, the first thing you'll need is the kernel you want to debug. You can download the source code for the Linux kernel from the [kernel.org](https://kernel.org) website. If you're interested in older kernel versions, you can visit the [mirror site](https://mirrors.edge.kernel.org/pub/linux/kernel/). And if you're a true Linux kernel enthusiast, you can use the `wget` command to download the source code.
 
 
