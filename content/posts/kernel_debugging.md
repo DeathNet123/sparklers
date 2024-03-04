@@ -133,7 +133,7 @@ If you're used to debugging with GDB, you might be tempted to skip this section.
 
 While userland debuggers like GDB wrappers (GEF, pwndbg, Peda) are fantastic, they're not ideal for debugging the kernel. That's why [bata24 ](https://github.com/bata24) created an enhanced version of [GEF](https://github.com/bata24/gef/), specifically designed for kernel debugging. 
 
-If you find this wrapper helpful, be sure to express your gratitude to both [bata24](https://github.com/bata24) and [Dawar Zaman](https://www.linkedin.com/pub/dir/Qadeer/Zaman). Dawar introduced me to this enhanced GEF version.
+If you find this wrapper helpful, be sure to express your gratitude to both [bata24](https://github.com/bata24) and [Dawar Zaman](https://www.linkedin.com/in/hafiz-dawar-zaman-abbasi-55b674146/). Dawar introduced me to this enhanced GEF version.
 
 The installation process for the enhanced GEF is quite straightforward. You can follow the instructions provided on the GitHub repository.
 
